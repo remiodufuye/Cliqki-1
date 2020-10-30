@@ -15,3 +15,16 @@
   justify-content: center;
   align-items: center;
 }
+
+.timer {
+  display: inline-block;
+  font-size: 1.5em;
+  list-style-type: none;
+  padding: 1em;
+  text-transform: uppercase;
+}
+
+.timerText {
+  display: block;
+  font-size: 4.5rem;
+}

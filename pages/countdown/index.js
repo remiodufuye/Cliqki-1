@@ -1,7 +1,7 @@
 import { useState } from "react";
 import Head from "next/head";
 import { countdownTimer } from "../../helpers";
-import styles from './countdown.module.css'
+import styles from "./countdown.module.css";
 
 const index = () => {
   const [time, setTimer] = useState(null);
@@ -19,15 +19,24 @@ const index = () => {
       </Head>
 
       <main className={styles.main}>
-        {time
-          ? time.daysRemaining +
-            " " +
-            time.hoursRemaining +
-            " " +
-            time.minutesRemaining +
-            " " +
-            time.secondsRemaining
-          : ""}
+        {time && (
+          <div id="countdown">
+            <ul>
+              <li className={styles.timer}>
+                <span className={styles.timerText}>{time.daysRemaining}</span>days
+              </li>
+              <li className={styles.timer}>
+                <span className={styles.timerText}>{time.hoursRemaining}</span>Hours
+              </li>
+              <li className={styles.timer}>
+                <span className={styles.timerText}>{time.minutesRemaining}</span>Minutes
+              </li>
+              <li className={styles.timer}>
+                <span className={styles.timerText}>{time.secondsRemaining}</span>Seconds
+              </li>
+            </ul>
+          </div>
+        )}
       </main>
     </div>
   );
