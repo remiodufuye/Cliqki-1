@@ -1,9 +1,21 @@
+.timerContainer{
+  padding-inline-start: 0px
+}
+
 .timer {
   display: inline-block;
   font-size: 1.5em;
   list-style-type: none;
   padding: 1em;
   text-transform: uppercase;
+  color: #fff;
+  background: rgba(255,255,255,.2);
+  padding: 20px;
+  margin: 10px;
+  border-radius: 10px;
+  width: 150px;
+  text-align: center;
+
 }
 
 .timerText {

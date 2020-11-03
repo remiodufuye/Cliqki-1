@@ -5,7 +5,7 @@ const CountDownTimer = ({ time }) => {
   return (
     <div>
       {time && (
-        <ul>
+        <ul className={styles.timerContainer}>
           <li className={styles.timer}>
             <span className={styles.timerText}>{time.daysRemaining}</span>
             {time.daysRemaining > 1 ? "days" : "day"}

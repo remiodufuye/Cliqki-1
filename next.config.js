@@ -6,5 +6,8 @@ module.exports = (phase, { defaultConfig }) => {
     sassOptions: {
       includePaths: [path.join(__dirname, "styles")],
     },
+    devIndicators: {
+      autoPrerender: false,
+    }
   };
 };
