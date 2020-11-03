@@ -8,7 +8,7 @@ const index = () => {
   const [time, setTimer] = useState({});
 
   setInterval(() => {
-    let duration = countdownTimer("5 feb 2021 00:00:00");
+    let duration = countdownTimer("10 feb 2021 00:00:00");
     setTimer(duration);
   }, 0);
 
