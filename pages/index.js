@@ -7,8 +7,9 @@ import styles from "./countdown.module.css";
 const index = () => {
   const [time, setTimer] = useState({});
 
+  // Modify duration here 
   setInterval(() => {
-    let duration = countdownTimer("10 feb 2021 00:00:00");
+    let duration = countdownTimer("05 feb 2021 00:00:00");
     setTimer(duration);
   }, 0);
 

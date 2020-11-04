@@ -1,5 +1,5 @@
-.timerContainer{
-  padding-inline-start: 0px
+.timerContainer {
+  padding-inline-start: 0px;
 }
 
 .timer {
@@ -9,13 +9,12 @@
   padding: 1em;
   text-transform: uppercase;
   color: #fff;
-  background: rgba(255,255,255,.2);
+  background: rgba(255, 255, 255, 0.2);
   padding: 20px;
   margin: 10px;
   border-radius: 10px;
   width: 150px;
   text-align: center;
-
 }
 
 .timerText {
