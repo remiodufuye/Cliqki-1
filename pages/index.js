@@ -9,7 +9,7 @@ const index = () => {
 
   // Modify duration here 
   setInterval(() => {
-    let duration = countdownTimer("22 Mar 2021 00:00:00");
+    let duration = countdownTimer("29 Mar 2021 00:00:00");
     setTimer(duration);
   }, 0);
 
